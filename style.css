@@ -13,7 +13,7 @@ body{
 .flexible-container-2{
     display: flex;
     padding-top:50px;
-    
+    padding-right: 40px;
     
     
 }
@@ -31,11 +31,25 @@ body{
     
 }
 
+.half-width2{
+    padding-left: 5%;
+    width: 50%;
+}
+.half-width2 img{
+    width: 80%;
+    padding-left: 7%;
+    
+}
+
 .speical{
 
     padding-left: 0%; 
     margin-right: 7%;
  }
+
+
+
+
 .top-left{
     
 
