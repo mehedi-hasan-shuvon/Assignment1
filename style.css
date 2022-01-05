@@ -4,27 +4,30 @@ body{
 
 .flexible-container{
     display: flex;
+    align-items: flex-end;
     
 }
 
 .half-width{
     width: 50%;
     
-    /* padding-left: 10%;
-    padding-top: 10%; */
+    padding-left: 10%;
+   
 }
 
 .half-width img{
-    width:50%;
+    width:60%;
     
 }
 
 .top-left{
+    
+
     line-height: 40px;
     border-left: 5px solid;
     border-image: linear-gradient(rgb(248, 93, 3),tomato);
     border-image-slice: 1;
-
+    
 }
 
 h1{
@@ -35,17 +38,13 @@ h1{
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(245, 142, 138), tomato);
     padding: 10px 40px;
     color:white;
     font-weight: 700;
     border-radius: 5px;
 }
-#new{
-    padding-left: 50px;
-    padding-top: 5px;
-    padding-top: 0%;
-}
+
 
 .orange-color{
     color: orange;
