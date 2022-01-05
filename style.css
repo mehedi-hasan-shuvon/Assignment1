@@ -8,14 +8,19 @@ body{
 .flexible-container{
     display: flex;
     align-items: flex-end;
+    padding:5%;
+    padding-top: 0px;
     
 }
 .flexible-container-2{
     display: flex;
     padding-top:50px;
-    padding-right: 40px;
+    /* padding-right: 100px; */
     
     
+}
+.fix{
+    padding:5%
 }
 
 
@@ -34,17 +39,18 @@ body{
 .half-width2{
     padding-left: 5%;
     width: 50%;
+    
 }
 .half-width2 img{
     width: 80%;
-    padding-left: 7%;
+    /* padding-left: 5%; */
     
 }
 
 .speical{
-
-    padding-left: 0%; 
-    margin-right: 5%;
+    padding:5%
+    /* padding-left: 0%; 
+    margin-right: 5%; */
  }
 
 
@@ -72,6 +78,9 @@ h2{
     margin: 0px;
 }
 
+h3{
+    font-size: 25px;
+}
 
 .link-button{
     text-decoration: none;
@@ -92,12 +101,13 @@ h2{
 }
 
 .experience-item{
-    width: 33%;
+    width: 20%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 10px;
     border-radius: 20px;
     padding: 20px;
+    
     
 
 }
