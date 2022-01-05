@@ -1,3 +1,6 @@
+section{
+    padding-bottom: 40px;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -10,15 +13,16 @@ body{
 .flexible-container-2{
     display: flex;
     padding-top:50px;
-    margin: 100px;
+    
     
     
 }
 
+
 .half-width{
     width: 50%;
     
-    padding-left: 10%;
+    padding-left: 5%;
    
 }
 
@@ -27,6 +31,11 @@ body{
     
 }
 
+.speical{
+
+    padding-left: 0%; 
+    margin-right: 7%;
+ }
 .top-left{
     
 
@@ -43,6 +52,12 @@ h1{
     padding-left: 10px;
     margin-bottom: 0px;
 }
+h2{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
 
 .link-button{
     text-decoration: none;
