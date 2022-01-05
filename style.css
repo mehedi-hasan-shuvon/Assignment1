@@ -3,6 +3,7 @@ section{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .flexible-container{
@@ -126,4 +127,11 @@ h3{
 }
 #experience-3{
     background-color: rgba(242, 247, 185, 0.774);
+}
+
+.footer-text{
+    padding: 3%;
+    background-color: rgb(24, 22, 22);
+    color: aliceblue;
+    text-align: center;
 }
