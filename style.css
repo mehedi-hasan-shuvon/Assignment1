@@ -8,7 +8,7 @@ body{
 
 .flexible-container{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     padding:5%;
     padding-top: 0px;
     
@@ -62,8 +62,14 @@ body{
 }
 
 .try{
+    padding-top: 7%;
     padding-left: 0%;
     margin-right: 7%;
+}
+
+.try2{
+    padding-top: 7%;
+    
 }
 .half-width2 img{
     width: 80%;
