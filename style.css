@@ -7,6 +7,13 @@ body{
     align-items: flex-end;
     
 }
+.flexible-container-2{
+    display: flex;
+    padding-top:50px;
+    margin: 100px;
+    
+    
+}
 
 .half-width{
     width: 50%;
@@ -25,8 +32,9 @@ body{
 
     line-height: 40px;
     border-left: 5px solid;
-    border-image: linear-gradient(rgb(248, 93, 3),tomato);
+    border-left-color: rgb(243, 89, 110);
     border-image-slice: 1;
+    border-radius: 5px;
     
 }
 
@@ -48,4 +56,35 @@ h1{
 
 .orange-color{
     color: orange;
+}
+
+#section-2-header{
+    text-align: center;
+}
+
+.experience-item{
+    width: 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    
+
+}
+.section-2-image-size{
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+     
+}
+#experience-1{
+    background-color: rgba(169, 229, 240, 0.445);
+}
+#experience-2{
+    background-color: rgba(243, 184, 238, 0.575);
+}
+#experience-3{
+    background-color: rgba(242, 247, 185, 0.774);
 }
