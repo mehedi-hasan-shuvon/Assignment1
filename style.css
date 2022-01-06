@@ -88,12 +88,15 @@ body{
 
 .top-left{
     
-
+    
     line-height: 40px;
     border-left: 5px solid;
-    border-left-color: rgb(243, 89, 110);
+    border-color: rgb(243, 89, 110);
     border-image-slice: 1;
     border-radius: 5px;
+    
+       
+    
     
 }
 
@@ -111,6 +114,7 @@ h2{
 h3{
     font-size: 25px;
 }
+
 
 .link-button{
     text-decoration: none;
@@ -157,6 +161,36 @@ h3{
 #experience-3{
     background-color: rgba(242, 247, 185, 0.774);
 }
+
+
+
+
+#experience-4{
+    background-image: url(images/pictures/covid.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+#experience-5{
+    text-align: left;
+    font-size: 18px;
+    /* background-image: url(images/shapes/shape-6.png); */
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    
+    /* background-position: 100% 1000%; */
+    background-size: 100% 100%;
+    
+    
+}
+#experience-6{
+    background-image: url(images/pictures/skin.png);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    box-shadow: 10px 10px 30px gray;
+}
+
 
 footer{
     padding-top: 40px;
